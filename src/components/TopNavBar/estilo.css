@@ -1,0 +1,47 @@
+/* Barra de navegação de cima */
+.top-nav-bar_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 3em;
+    padding: 0 12px 0 0;
+    border-bottom: solid 1px #b6b3b3;
+}
+
+.top-nav-bar_icons_left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 4%;
+    height: 3em;
+    border-right: solid 1px #b6b3b3;
+}
+
+.top-nav-bar_icons_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 10%;
+}
+
+.top-nav-bar_icons_notification {
+    filter: invert(93%) sepia(0%) saturate(1112%) hue-rotate(185deg) brightness(94%) contrast(83%); /* #CFCFCF */
+}
+
+.top-nav-bar_icons_initials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 30%;
+    height: 2.4em;
+    border-radius: 50%;
+    background: #CFCFCF;
+
+    font-weight: bold;
+    color: #000;
+}

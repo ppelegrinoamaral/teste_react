@@ -1,17 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react';
+import ReactDOM, { render } from 'react-dom';
+
+import SideNavBar from './components/SideNavBar/SideNavBar';
+import TopNavBar from './components/TopNavBar/TopNavBar';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <React.StrictMode>
+        <TopNavBar />
+        <SideNavBar />
+    </React.StrictMode>,
+    document.getElementById('root')
+)

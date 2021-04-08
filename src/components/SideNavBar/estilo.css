@@ -1,0 +1,46 @@
+/* Barra de navegação lateral */
+
+.side-nav-bar_icons {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+
+    max-width: 4%;
+    height: 18em;
+}
+
+/* Imagens dos ícones */
+
+.side-nav-bar_icons_circle {
+    filter: invert(93%) sepia(0%) saturate(1112%) hue-rotate(185deg) brightness(94%) contrast(83%); /* #CFCFCF*/
+    width: 80%;
+}
+
+.side-nav-bar_icons_item {
+    filter: invert(59%) sepia(56%) saturate(560%) hue-rotate(17deg) brightness(92%) contrast(88%); /* #ABA022 */
+}
+
+.side-nav-bar_icons_circle:hover, .side-nav-bar_icons_item:hover {
+    filter: invert(100%) sepia(0%) saturate(7465%) hue-rotate(99deg) brightness(104%) contrast(98%); /* #FCFCFC*/
+}
+
+/* <div> dos ícones */
+
+.sidebar-separator{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+    border-bottom: solid 1px #b6b3b3;
+}
+
+.sidebar-separator:hover {
+    background: #ABA022;
+}
+
+
+
+
+
+
