@@ -1,0 +1,51 @@
+.sub-nav-bar_itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 3em; left: 4%; 
+    
+    width: 70%;
+    border-bottom: solid 2px #b6b3b3;
+    margin-left: 2%;
+}
+
+/* Abas de atendimento */
+
+.sub-nav-bar_itens_names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 65%;
+    margin-top: 1.7em;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #CFCFCF;
+}
+
+/* Abas de atendimento selecionadas */
+
+.sub-nav-bar_trace {
+    position: absolute;
+    top: 50%;
+
+    width: 2em;
+    height: 50%;
+}
+
+.sub-nav-bar_trace:hover {
+    border-bottom: solid 3px #ABA022;
+}
+
+.sub-nav-bar_hover:hover {
+    color: #000;
+}
+
+/* Lateral direita das abas de atendimento */
+
+.sub-nav-bar_items_space {
+    width: 35%;
+}

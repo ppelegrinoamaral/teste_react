@@ -1,0 +1,47 @@
+/* Box de lembrete */
+.return-form {
+    position: absolute;
+    top: 27%; left: 6%;
+
+    width: 46%;
+    height: 20em;
+    padding: 2%;
+    background: #FFF;
+    color: #000;
+
+    text-align: left;
+}
+
+.return-form_tittle p {
+    margin: 0 0 8% 0;
+}
+
+.return-form_datas {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+
+.return-form_datas_email {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.55;
+}
+
+.return-form_datas_date {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.4;
+}
+
+.return-form_datas_label {
+    padding-bottom: 15px;
+}
+
+.return-form_datas_input {
+    margin-bottom: 8%;
+    height: 30px;
+
+    border: solid 1px #b6b3b3;
+    color: #b6b3b3;
+}
